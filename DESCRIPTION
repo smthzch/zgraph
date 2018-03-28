@@ -1,0 +1,15 @@
+Package: ZGraph
+Type: Package
+Title: Builds Relevance and Dependency Graphs
+Version: 0.1.0
+Author: Zach Smith
+Maintainer: <ezke.smith@gmail.com>
+Description: Build relevance graphs using correlation matrix.
+    Builds dependency graphs using the lasso. Graphs can then be trimmed.
+    If graph is not fully connected can tell which group each node
+    participates in.
+Imports:
+    glmnet
+License: Free
+Encoding: UTF-8
+LazyData: true
